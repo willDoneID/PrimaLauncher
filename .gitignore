@@ -1,0 +1,53 @@
+# --- Build Directories ---
+/build/
+/bin/
+/out/
+.DS_Store
+Thumbs.db
+
+# --- CMake Cache & Files ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake-install.cmake
+cmake_install.cmake
+Makefile
+*.cmake
+*.make
+*.ninja
+build*.txt
+.ninja_*
+
+# --- IDE & Editor Specific (Qt Creator, VS Code, CLion) ---
+# Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains CLion / Visual Studio
+.idea/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# --- Logs & Temporary Files ---
+*.log
+*.tmp
+*.temp
